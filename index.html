@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Học Tập</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Trang Học Tập</h1>
+        <p>Một trang web giúp bạn học tập hiệu quả!</p>
+    </header>
+
+    <div id="content">
+        <!-- Phần bài thơ -->
+        <div class="section" id="poem">
+            <h2>Bài Thơ: Tẩu lộ (Hồ Chí Minh)</h2>
+            <p>
+                Tẩu lộ tài tri tẩu lộ nan <br>
+                Trùng san chi ngoại hựu trùng san <br>
+                Trùng san đăng đáo cao phong hậu <br>
+                Vạn lý dư đồ cố miện gian. 
+            </p>
+        </div>
+
+        <!-- Phần thời khóa biểu -->
+        <div class="section" id="schedule">
+            <h2>Thời Khóa Biểu</h2>
+            <table class="schedule-table">
+                <tr>
+                    <th>Thứ</th>
+                    <th>Môn Học</th>
+                    <th>Giờ</th>
+                </tr>
+                <tr>
+                    <td>Thứ Hai</td>
+                    <td>Toán</td>
+                    <td>8:00 - 10:00</td>
+                </tr>
+                <tr>
+                    <td>Thứ Ba</td>
+                    <td>Văn</td>
+                    <td>8:00 - 10:00</td>
+                </tr>
+                <tr>
+                    <td>Thứ Tư</td>
+                    <td>Anh</td>
+                    <td>10:00 - 12:00</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Công cụ tính phương trình bậc 2 -->
+        <div class="section" id="calculator">
+            <h2>Công Cụ Tính Phương Trình Bậc 2</h2>
+            <p>Phương trình dạng: ax² + bx + c = 0</p>
+            <input type="number" id="a" placeholder="Nhập a">
+            <input type="number" id="b" placeholder="Nhập b">
+            <input type="number" id="c" placeholder="Nhập c">
+            <button onclick="calculate()">Giải</button>
+            <p id="result"></p>
+        </div>
+
+         <div class="section image">
+            <h2></h2>
+            <img src="ht.jpg" alt="Học Tập">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
